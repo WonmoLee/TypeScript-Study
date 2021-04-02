@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        //node.js를 평범하게 사용하고 다양한 걸 impoert하거나 export할 수 있게함.
+        "module": "commonjs"
+        //어떤 버전의 JS로 컴파일할지를 설정
+        , "target": "ES2015"
+        //소스맵 처리를 어떻게 할건가.
+        , "sourceMap": true
+        //컴파일된 파일 저장경로
+        , "outDir": "dist"
+    //include는 어떤 파일들이 컴파일 과정에 포함되는지 설정하는 것. (컴파일 과정에 포함할 파일의 배열을 작성)
+    }, "include": ["src/**/*"]
+    , "exclude": ["node_modules"]
+}
